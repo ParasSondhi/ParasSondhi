@@ -6,7 +6,7 @@ I build robust, backend-driven AI systems with a focus on multi-agent orchestrat
 🏆 **Top 5.58% Nationally in GATE Data Science & AI (IIT Guwahati)**
 
 ### 🛠 Core Stack
-* **AI & Orchestration:** LangGraph, LangChain, Groq, Gemini
+* **AI & Orchestration:** LangGraph, LangChain, Groq, Gemini, Ollama (Local LLMs)
 * **Backend & API:** Python, FastAPI
 * **Data, Cloud & Deployment:** ChromaDB, Docker, Render
 * **Frontend:** Streamlit
@@ -16,14 +16,14 @@ I build robust, backend-driven AI systems with a focus on multi-agent orchestrat
 ### 🚀 Featured Architecture
 
 **[AutonomousResearchAgent](https://github.com/ParasSondhi/AutonomousResearchAgent)** | [🌐 Use Live App](https://getwellresearchedreport.streamlit.app/) | [▶️ Watch Demo](https://www.loom.com/share/ad7905b8e029476882c42ae648d7fa59)
-* **Architecture:** Deployed multi-agent system built to iteratively research, synthesize, and route information without human intervention.
-* **Stack:** LangGraph, Groq, Python, Render, Streamlit, FastAPI
-* **The Heavy Lifting:** **Successfully deployed the system to production** using Render for the backend and Streamlit for the user interface. Built the routing logic to handle cyclic graph states and prevent infinite loops during data fetching.
+* **Architecture:** Deployed Human-in-the-Loop (HITL) multi-agent system built to iteratively research, synthesize, and draft reports.
+* **Stack:** LangGraph, Groq, Gemini, Python, Render, Streamlit
+* **The Heavy Lifting:** **Successfully deployed the system to production** using Render for the backend and Streamlit for the user interface. Built a **Human-in-the-Loop (HITL)** approval checkpoint using LangGraph, allowing users to intercept and refine the agent's search queries before execution to ensure accuracy. Managed complex cyclic graph states and prevented infinite loops during the research phase.
 
 **[Enterprise-RAG-Agent](https://github.com/ParasSondhi/Enterprise-RAG-Agent)** | [▶️ Watch Demo](https://drive.google.com/file/d/1Ib78egf57JLCYflITnxK3eL06--PIfZ4/view?usp=drive_link)
-* **Architecture:** Infrastructure designed for reliable document retrieval and context-aware generation.
-* **Stack:** ChromaDB, LangChain, Python
-* **The Heavy Lifting:** Implemented vector storage (ChromaDB) to manage optimal chunk retrieval and mitigate hallucination risks. Structured the architecture to reliably handle incoming queries and serve accurate generation results.
+* **Architecture:** Zero-leakage infrastructure designed for 100% data privacy using local execution for document retrieval and context-aware generation.
+* **Stack:** Ollama (Local Execution), ChromaDB, LangChain, Python
+* **The Heavy Lifting:** **Built a completely local, zero-data-leakage** pipeline ensuring enterprise privacy. Implemented vector storage (ChromaDB) to manage optimal chunk retrieval without sending sensitive documents to external cloud APIs, and structured the backend to reliably serve accurate generation results locally.
 
 ---
 
