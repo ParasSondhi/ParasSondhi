@@ -8,7 +8,7 @@ I build robust, backend-driven AI systems with a focus on multi-agent orchestrat
 ### 🛠 Core Stack
 * **AI & Orchestration:** LangGraph, LangChain, Groq, Gemini, Ollama (Local LLMs), HuggingFace
 * **Backend & Data Processing:** Python, FastAPI, Pandas, SQL
-* **Data, Cloud & Deployment:** ChromaDB, Docker, Render, SMTP
+* **Data, Cloud & Deployment:** ChromaDB, Docker, Render
 * **Frontend:** Streamlit
 ---
 
@@ -27,11 +27,11 @@ I build robust, backend-driven AI systems with a focus on multi-agent orchestrat
 ---
 
 ### 🌱 Open Source Contributions
-* **[py-goog-cli](https://github.com/DhruvGarg111/py-goog-cli/pull/8)**: Authored and merged core setup documentation and model tag configuration directly to the main branch.
+* **[py-goog-cli](https://github.com/DhruvGarg111/py-goog-cli/pull/8)**: Authored the core setup guide and identified/patched a CLI argument parsing error in the main documentation regarding model flag configurations.
 
 ---
 
 ### 📬 Let's Connect
-**Open to contract AI development work.** If you need someone to fix a broken RAG pipeline or build an agentic backend from scratch, reach out.
+**Open to contract AI development work :** RAG pipelines, agentic backends, LLM integrations
 * [LinkedIn](https://www.linkedin.com/in/paras-sondhi-6648a525a/)
 * Email : parassondhi10@gmail.com
