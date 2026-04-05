@@ -17,7 +17,7 @@ I build robust, backend-driven AI systems with a focus on multi-agent orchestrat
 
 **[AutonomousResearchAgent](https://github.com/ParasSondhi/AutonomousResearchAgent)** | [🌐 Use Live App](https://getwellresearchedreport.streamlit.app/) | [▶️ Watch Demo](https://www.loom.com/share/ad7905b8e029476882c42ae648d7fa59)
 * **Architecture:** Deployed Human-in-the-Loop (HITL) multi-agent system built to iteratively research, synthesize, and draft reports.
-* **Stack:** LangGraph, Groq, Gemini, Python, Render, Streamlit
+* **Stack:** LangGraph, Groq, Python, Render, Streamlit
 * **The Heavy Lifting:** **Successfully deployed the system to production** using Render for the backend and Streamlit for the user interface. Built a **Human-in-the-Loop (HITL)** approval checkpoint using LangGraph, allowing users to intercept and refine the agent's search queries before execution to ensure accuracy. Managed complex cyclic graph states and prevented infinite loops during the research phase.
 
 **[Enterprise-RAG-Agent](https://github.com/ParasSondhi/Enterprise-RAG-Agent)** | [▶️ Watch Demo](https://drive.google.com/file/d/1Ib78egf57JLCYflITnxK3eL06--PIfZ4/view?usp=drive_link)
