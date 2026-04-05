@@ -6,24 +6,23 @@ I build robust, backend-driven AI systems with a focus on multi-agent orchestrat
 🏆 **Top 5.58% Nationally in GATE Data Science & AI (IIT Guwahati)**
 
 ### 🛠 Core Stack
-* **AI & Orchestration:** LangGraph, LangChain, Groq, Gemini, Ollama (Local LLMs)
-* **Backend & API:** Python, FastAPI
-* **Data, Cloud & Deployment:** ChromaDB, Docker, Render
+* **AI & Orchestration:** LangGraph, LangChain, Groq, Gemini, Ollama (Local LLMs), HuggingFace
+* **Backend & Data Processing:** Python, FastAPI, Pandas, SQL
+* **Data, Cloud & Deployment:** ChromaDB, Docker, Render, SMTP
 * **Frontend:** Streamlit
-
 ---
 
 ### 🚀 Featured Architecture
 
 **[AutonomousResearchAgent](https://github.com/ParasSondhi/AutonomousResearchAgent)** | [🌐 Use Live App](https://getwellresearchedreport.streamlit.app/) | [▶️ Watch Demo](https://www.loom.com/share/ad7905b8e029476882c42ae648d7fa59)
-* **Architecture:** Deployed Human-in-the-Loop (HITL) multi-agent system built to iteratively research, synthesize, and draft reports.
-* **Stack:** LangGraph, Groq, Python, Render, Streamlit
-* **The Heavy Lifting:** **Successfully deployed the system to production** using Render for the backend and Streamlit for the user interface. Built a **Human-in-the-Loop (HITL)** approval checkpoint using LangGraph, allowing users to intercept and refine the agent's search queries before execution to ensure accuracy. Managed complex cyclic graph states and prevented infinite loops during the research phase.
+* **Architecture:** Deployed Human-in-the-Loop (HITL) multi-agent system built to iteratively research, synthesize, and automatically distribute reports.
+* **Stack:** LangGraph, Groq, Python, Render, Streamlit, SMTP
+* **The Heavy Lifting:** **Successfully deployed the system to production** using Render for the backend and Streamlit for the user interface. Built a Human-in-the-Loop (HITL) approval checkpoint using LangGraph, allowing users to intercept and refine the agent's search queries before execution. Engineered an automated SMTP integration to deliver the final compiled PDF report directly to the user's inbox.
 
 **[Enterprise-RAG-Agent](https://github.com/ParasSondhi/Enterprise-RAG-Agent)** | [▶️ Watch Demo](https://drive.google.com/file/d/1Ib78egf57JLCYflITnxK3eL06--PIfZ4/view?usp=drive_link)
-* **Architecture:** Zero-leakage infrastructure designed for 100% data privacy using local execution for document retrieval and context-aware generation.
-* **Stack:** Ollama (Local Execution), ChromaDB, LangChain, Python
-* **The Heavy Lifting:** **Built a completely local, zero-data-leakage** pipeline ensuring enterprise privacy. Implemented vector storage (ChromaDB) to manage optimal chunk retrieval without sending sensitive documents to external cloud APIs, and structured the backend to reliably serve accurate generation results locally.
+* **Architecture:** Zero-leakage hybrid infrastructure designed for 100% data privacy, capable of simultaneously querying unstructured PDFs and structured CSV/SQL databases locally.
+* **Stack:** Ollama (Local Execution), HuggingFace, ChromaDB, Pandas, SQL, LangChain, Python
+* **The Heavy Lifting:** **Built a completely local, zero-data-leakage** pipeline ensuring enterprise privacy using HuggingFace embeddings and Ollama. Engineered an automated data pipeline using Pandas to dynamically preprocess raw CSV files (handling missing values) before loading them into a SQL engine. Implemented vector storage (ChromaDB) for optimal PDF chunk retrieval, seamlessly routing user queries between the structured CSV data and the unstructured PDF text.
 
 ---
 
