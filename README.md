@@ -34,4 +34,4 @@ I build robust, backend-driven AI systems with a focus on multi-agent orchestrat
 ### 📬 Let's Connect
 **Open to contract AI development work.** If you need someone to fix a broken RAG pipeline or build an agentic backend from scratch, reach out.
 * [LinkedIn](https://www.linkedin.com/in/paras-sondhi-6648a525a/)
-* [Email](parassondhi10@gmail.com)
+* Email : parassondhi10@gmail.com
