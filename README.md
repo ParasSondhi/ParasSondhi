@@ -28,7 +28,7 @@ I build robust, backend-driven AI systems with a focus on multi-agent orchestrat
 ---
 
 ### 🌱 Open Source Contributions
-* **[py-goog-cli]**: Authored and merged core setup documentation and model tag configuration directly to the main branch.
+* **[py-goog-cli](https://github.com/DhruvGarg111/py-goog-cli/pull/8)**: Authored and merged core setup documentation and model tag configuration directly to the main branch.
 
 ---
 
