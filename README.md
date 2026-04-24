@@ -15,7 +15,7 @@ I don't build thin LLM wrappers. I build the heavy plumbing underneath.
 
 ---
 
-### 🌱 Open Source Contributions
+### 🌐 Open Source Contributions
 
 **[infiniflow/ragflow](https://github.com/infiniflow/ragflow) Core Contributor** | [Merged PR #14218](https://github.com/infiniflow/ragflow/pull/14218)
 * Engineered and shipped the native Docling chunking and document parsing engine into RAGFlow's main branch.
