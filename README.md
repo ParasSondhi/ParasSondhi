@@ -5,7 +5,7 @@ I build resilient, backend-driven AI systems. While my formal academic backgroun
 
 I don't build thin LLM wrappers. I build the heavy plumbing underneath.
 
-🏆 **Top 5.58% Nationally in GATE Data Science & AI (IIT Guwahati, 2026)**
+🏆 **Top 5.58% Nationally in GATE Data Science & AI (IIT Guwahati, 2026 — 69,200+ Candidates)**
 
 ### 🛠 Core Stack
 * **AI & Orchestration:** LangGraph, LangChain, Groq, Local LLMs (Ollama), HuggingFace
