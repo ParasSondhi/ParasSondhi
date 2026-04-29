@@ -17,9 +17,15 @@ I don't build thin LLM wrappers. I build the heavy plumbing underneath.
 
 ### 🌐 Open Source Contributions
 
-**[infiniflow/ragflow](https://github.com/infiniflow/ragflow) Core Contributor** | [Merged PR #14218](https://github.com/infiniflow/ragflow/pull/14218)
-* Engineered and shipped the native Docling chunking and document parsing engine into RAGFlow's main branch.
-* Resolved critical context-limit failures for enterprise pipelines by building a graceful fallback mechanism. Code reviewed and approved by core maintainers.
+**[infiniflow/ragflow](https://github.com/infiniflow/ragflow) Core Contributor**
+
+* **Google Drive Sync Engine & Memory Optimization** | [Merged PR #14372](https://github.com/infiniflow/ragflow/pull/14372)
+    * Engineered the remote sync deletion engine for the Google Drive connector, enabling the pipeline to accurately track and reap remotely deleted files.
+    * Built a memory-optimized `O(N)` state-reconciliation pipeline replacing heavy dictionary payloads with lightweight namedtuples, solving RAM spikes during massive enterprise snapshots while bypassing Workspace API blindspots.
+
+* **Native Docling Chunking Integration** | [Merged PR #14218](https://github.com/infiniflow/ragflow/pull/14218)
+    * Engineered and shipped the native Docling chunking and document parsing engine into RAGFlow's main branch.
+    * Resolved critical context-limit failures for enterprise pipelines by building a graceful fallback mechanism. Code reviewed and approved by core maintainers.
 
 ---
 
