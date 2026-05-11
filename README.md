@@ -27,6 +27,9 @@ I don't build thin LLM wrappers. I build the heavy plumbing underneath.
     * Engineered and shipped the native Docling chunking and document parsing engine into RAGFlow's main branch.
     * Resolved critical context-limit failures for enterprise pipelines by building a graceful fallback mechanism. Code reviewed and approved by core maintainers.
 
+* **Docker Build Pipeline Optimization** | [Merged PR #14553](https://github.com/infiniflow/ragflow/pull/14553)
+    * Optimized sandbox Dockerfiles by implementing dynamic package registry fallbacks via conditional shell logic and build arguments (`ARG`), resolving global network timeouts during environment initialization.
+
 ---
 
 ### 🚀 Shipped Architecture
