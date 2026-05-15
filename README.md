@@ -36,7 +36,7 @@ I don't build thin LLM wrappers. I build the heavy plumbing underneath.
 
 **[Autonomous Research Agent](https://github.com/ParasSondhi/AutonomousResearchAgent)** | [🌐 Live App](https://getwellresearchedreport.streamlit.app/) | [▶️ Watch Demo](https://www.loom.com/share/ad7905b8e029476882c42ae648d7fa59)
 * **What it is:** A decoupled, asynchronous research microservice currently live-deployed on Render.
-* **The Heavy Lifting:** Built a Human-in-the-Loop (HITL) approval gate using LangGraph. The agent autonomously validates scraped web data, self-corrects failing searches, and lets users intercept queries before execution. It delivers structured PDF reports with zero client wait time.
+* **The Heavy Lifting:** Built a robust Human-in-the-Loop (HITL) approval gate using LangGraph, ensuring high-fidelity outputs by maintaining strict manual oversight over the autonomous workflow. The agent independently validates scraped web data, iterates on failing searches through self-correction, and pauses to let users intercept queries before final execution. The end-to-end pipeline reliably synthesizes this verified, multi-source data into comprehensive, well-formatted PDF reports.
 
 **[Zero-Leakage Enterprise RAG](https://github.com/ParasSondhi/Enterprise-RAG-Agent)** | [▶️ Watch Demo](https://drive.google.com/file/d/1Ib78egf57JLCYflITnxK3eL06--PIfZ4/view?usp=drive_link)
 * **What it is:** A 100% local, privacy-first pipeline that simultaneously queries unstructured PDFs and structured SQL databases.
