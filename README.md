@@ -34,7 +34,7 @@ I don't build thin LLM wrappers. I build the heavy plumbing underneath.
 
 ### 🚀 Shipped Architecture
 
-**[Autonomous Research Agent](https://github.com/ParasSondhi/AutonomousResearchAgent)** | [🌐 Live App](https://getwellresearchedreport.streamlit.app/) | [▶️ Watch Demo](https://www.loom.com/share/ad7905b8e029476882c42ae648d7fa59)
+**[Autonomous Research Agent](https://github.com/ParasSondhi/AutonomousResearchAgent)** | [🟢 Live App](https://getwellresearchedreport.streamlit.app/) | [▶️ Watch Demo](https://www.loom.com/share/ad7905b8e029476882c42ae648d7fa59)
 * **What it is:** A decoupled, asynchronous research microservice currently live-deployed on Render.
 * **The Heavy Lifting:** Built a robust Human-in-the-Loop (HITL) approval gate using LangGraph, ensuring high-fidelity outputs by maintaining strict manual oversight over the autonomous workflow. The agent independently validates scraped web data, iterates on failing searches through self-correction, and pauses to let users intercept queries before final execution. The end-to-end pipeline reliably synthesizes this verified, multi-source data into comprehensive, well-formatted PDF reports.
 
