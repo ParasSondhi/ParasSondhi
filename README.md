@@ -41,11 +41,3 @@ I don't build thin LLM wrappers. I build the heavy plumbing underneath.
 **[Zero-Leakage Enterprise RAG](https://github.com/ParasSondhi/Enterprise-RAG-Agent)** | [▶️ Watch Demo](https://drive.google.com/file/d/1Ib78egf57JLCYflITnxK3eL06--PIfZ4/view?usp=drive_link)
 * **What it is:** A 100% local, privacy-first pipeline that simultaneously queries unstructured PDFs and structured SQL databases.
 * **The Heavy Lifting:** Engineered the entire stack locally using Ollama and HuggingFace embeddings to guarantee zero data leakage. Built dynamic Pandas pipelines to clean raw CSVs before SQL insertion, and wrote the routing logic to seamlessly flip between ChromaDB vector search and SQL queries based on user intent.
-
----
-
-### 📬 Let's Connect
-**Currently taking on freelance contracts (15-20 hrs/wk).** If your FastAPI or LangGraph backend is hitting rate limits or dropping context, I'd be happy to connect and see if I can help.
-
-* [LinkedIn](https://www.linkedin.com/in/paras-sondhi-6648a525a/)
-* **Email:** parassondhi10@gmail.com
